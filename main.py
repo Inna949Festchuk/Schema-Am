@@ -12,4 +12,5 @@ if __name__ == '__main__':
             with open('indata.txt', 'a') as doc:
                 doc.write(str(point.x1) + ', ' + str(point.y1) + ', ' + str(point.x2) + ', ' 
                           + str(point.y2) + ', ' + str(point.Am()[0]) + ', ' + str(point.Am()[1]) + '\n')
+    print('Изменения')
     input('Успешно!')
